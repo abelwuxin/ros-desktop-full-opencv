@@ -7,6 +7,8 @@ RUN add-apt-repository --yes ppa:xqms/opencv-nonfree && apt-get update && apt-ge
     libopencv-nonfree-dev \
     libopencv-nonfree2.4 \
     ros-indigo-uvc-camera \
+    ros-indigo-web-video-server \
+    ros-indigo-mjpeg-server \
     && rm -rf /var/lib/apt/lists/*
 
 
